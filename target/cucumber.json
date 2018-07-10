@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "I logged into SuiteCRM",
+            "match": {
+              "location": "UITestStepDefinition.i_logged_into_SuiteCRM()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "contact creation and validation",
+        "description": "",
+        "id": "contact-creation;contact-creation-and-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I go to create contact page1",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I create new contact using1 \"Prof.\" \"James\" \"Bond\" \"7733334400\" \"007\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I validate all created contact1 info \"Prof.\" \"James\" \"Bond\" \"7733334400\" \"007\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I logout from application1",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dastan"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "I logged into SuiteCRM",
+            "match": {
+              "location": "UITestStepDefinition.i_logged_into_SuiteCRM()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "contact creation and validation",
+        "description": "",
+        "id": "contact-creation;contact-creation-and-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I go to create contact page1",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I create new contact using1 \"Dr.\" \"House\" \"Gred\" \"2747344400\" \"Brain\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I validate all created contact1 info \"Dr.\" \"House\" \"Gred\" \"2747344400\" \"Brain\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I logout from application1",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dastan"
+          }
+        ]
+      }
+    ],
+    "name": "Contact creation",
+    "description": "",
+    "id": "contact-creation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com.app.features/Contact.feature",
+    "tags": []
+  }
+]

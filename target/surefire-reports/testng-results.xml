@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteCRM Regression Automation" duration-ms="594" started-at="2018-04-05T19:54:59Z" finished-at="2018-04-05T19:55:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@5afa04c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Automated tests" duration-ms="594" started-at="2018-04-05T19:54:59Z" finished-at="2018-04-05T19:55:00Z">
+      <class name="com.app.runners.RegressionRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.RegressionRunner@5afa04c]" name="setUpClass" is-config="true" duration-ms="487" started-at="2018-04-05T14:54:59Z" finished-at="2018-04-05T14:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.RegressionRunner@5afa04c]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2018-04-05T14:55:00Z" finished-at="2018-04-05T14:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.RegressionRunner -->
+    </test> <!-- Automated tests -->
+  </suite> <!-- SuiteCRM Regression Automation -->
+</testng-results>

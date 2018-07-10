@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I logged into SuiteCRM (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I go to create contact page1 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create new contact using1 &quot;Prof.&quot; &quot;James&quot; &quot;Bond&quot; &quot;7733334400&quot; &quot;007&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I validate all created contact1 info &quot;Prof.&quot; &quot;James&quot; &quot;Bond&quot; &quot;7733334400&quot; &quot;007&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application1 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into SuiteCRM (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I go to create contact page1 (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create new contact using1 &quot;Dr.&quot; &quot;House&quot; &quot;Gred&quot; &quot;2747344400&quot; &quot;Brain&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I validate all created contact1 info &quot;Dr.&quot; &quot;House&quot; &quot;Gred&quot; &quot;2747344400&quot; &quot;Brain&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application1 (UNDEFINED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="379" started-at="2018-07-01T19:04:59Z" finished-at="2018-07-01T19:04:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@192b07fd]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="379" started-at="2018-07-01T19:04:59Z" finished-at="2018-07-01T19:04:59Z">
+      <class name="com.app.runners.CukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@192b07fd]" name="setUpClass" is-config="true" duration-ms="226" started-at="2018-07-01T14:04:59Z" finished-at="2018-07-01T14:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@192b07fd]" name="runScenario" duration-ms="32" started-at="2018-07-01T14:04:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-01T14:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["contact creation and validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact creation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into SuiteCRM (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I go to create contact page1 (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create new contact using1 &quot;Prof.&quot; &quot;James&quot; &quot;Bond&quot; &quot;7733334400&quot; &quot;007&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I validate all created contact1 info &quot;Prof.&quot; &quot;James&quot; &quot;Bond&quot; &quot;7733334400&quot; &quot;007&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application1 (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@192b07fd]" name="runScenario" duration-ms="14" started-at="2018-07-01T14:04:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-07-01T14:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["contact creation and validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact creation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into SuiteCRM (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I go to create contact page1 (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create new contact using1 &quot;Dr.&quot; &quot;House&quot; &quot;Gred&quot; &quot;2747344400&quot; &quot;Brain&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I validate all created contact1 info &quot;Dr.&quot; &quot;House&quot; &quot;Gred&quot; &quot;2747344400&quot; &quot;Brain&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application1 (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@192b07fd]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-07-01T14:04:59Z" finished-at="2018-07-01T14:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
